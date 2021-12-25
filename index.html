@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ea8f930cf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/facebook-logo.png" alt="logo" class="logo" >
+       <ul>
+           <li><img src="images/notification.png" ></li>
+           <li><img src="images/inbox.png" ></li>
+           <li><img src="images/video.png" ></li>
+       </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="" srcset="">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="" srcset="">
+            </div>
+
+
+
+        </div>
+
+<!-- settings -->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-inner">
+                <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                    <p>Pratik Mohite</p>
+                   <a href="profile.html">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                    <p>Give Feedback</p>
+                   <a href="#">Help us to improve</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="setting-links">
+                <img src="images/setting.png" class="setting-icon" alt="">
+                <a href="#">Setting & Privacy <img src="images/arrow.png " width="10px" alt=""></a>
+            </div>
+
+            <div class="setting-links">
+                <img src="images/help.png" class="setting-icon" alt="">
+                <a href="#">Help & Support <img src="images/arrow.png " width="10px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/display.png" class="setting-icon" alt="">
+                <a href="#">Display & Accessibility<img src="images/arrow.png " width="10px" alt=""></a>
+            </div>
+            <div class="setting-links">
+                <img src="images/logout.png" class="setting-icon" alt="">
+                <a href="#">Logout <img src="images/arrow.png " width="10px" alt=""></a>
+            </div>
+
+
+
+                
+            </div>
+            
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="images/group.png" alt="">Group</a>
+                <a href="#"><img src="images/marketplace.png" alt="">marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="">Watch</a>
+                <a href="#">See more</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">Web Developrs</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">Web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full stack Developer</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Website Experts</a>
+            </div>
+
+
+        </div>
+
+
+
+
+
+          <!-- main-content -->
+        <div class="main-content">
+
+            <div class="story-galary">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Sriniket</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Shubham</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Swapnil</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Sidhharth</p>
+                </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                        <small>Public <i class="fas fa-sort-down"></i></small>
+                    </div>
+                </div>
+
+
+
+                <div class="post-inout-container">
+                    <textarea rows="3" placeholder="what's on your mind, Pratik"></textarea>
+               <div class="add-post-links">
+              
+                <a href="#"><img src="images/live-video.png" alt="">Live video</a>
+                <a href="#"><img src="images/photo.png" alt="">Photo/video</a>
+                <a href="#"><img src="images/feeling.png" alt="">Feeling Activity</a>
+              
+            
+            </div>
+               
+                </div>
+
+
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium saepe quae, fugit earum rerum dolorem nesciunt! Vel facilis incidunt, id quisquam accusantium beatae nam? Eum, reiciendis. Possimus, culpa ut! <a href="#">lknfovvfv</a></p>
+                <img src="images/feed-image-1.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1245</div>
+                        <div><img src="images/comments.png" alt="">154</div>
+                        <div><img src="images/share.png" alt="">34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+               <div class="post-container">
+                <div class="post-row">
+
+
+                 <div class="user-profile">
+                    <img src="images/member-3.png" alt="">
+                    <div>
+                        <p>पाटलांचा लाडका स्वप्नील</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text">दुसरे लोक पैशामुळे
+                    “Brand”  असतात
+                    पण आपण आपल्या
+                    “Personality”
+                    मुळे Brand आहे.
+                    👊😎✌️
+                    <a href="#">//पाटील...नावातच दहशत//</a></p>
+                <img src="images/swap1.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1245</div>
+                        <div><img src="images/comments.png" alt="">154</div>
+                        <div><img src="images/share.png" alt="">34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+         
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium saepe quae, fugit earum rerum dolorem nesciunt! Vel facilis incidunt, id quisquam accusantium beatae nam? Eum, reiciendis. Possimus, culpa ut! <a href="#">lknfovvfv</a></p>
+                <img src="images/feed-image-2.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">624</div>
+                        <div><img src="images/comments.png" alt="">52</div>
+                        <div><img src="images/share.png" alt="">22</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium saepe quae, fugit earum rerum dolorem nesciunt! Vel facilis incidunt, id quisquam accusantium beatae nam? Eum, reiciendis. Possimus, culpa ut! <a href="#">lknfovvfv</a></p>
+                <img src="images/feed-image-3.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1245</div>
+                        <div><img src="images/comments.png" alt="">154</div>
+                        <div><img src="images/share.png" alt="">34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium saepe quae, fugit earum rerum dolorem nesciunt! Vel facilis incidunt, id quisquam accusantium beatae nam? Eum, reiciendis. Possimus, culpa ut! <a href="#">lknfovvfv</a></p>
+                <img src="images/feed-image-4.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1245</div>
+                        <div><img src="images/comments.png" alt="">154</div>
+                        <div><img src="images/share.png" alt="">34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                 <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Pratik Mohite</p>
+                       <span>June 24 2021,13.40pm</span>
+                    </div>
+                </div>   
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+
+                </div>
+                
+                <p class="post-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus praesentium saepe quae, fugit earum rerum dolorem nesciunt! Vel facilis incidunt, id quisquam accusantium beatae nam? Eum, reiciendis. Possimus, culpa ut! <a href="#">lknfovvfv</a></p>
+                <img src="images/feed-image-5.png" class="post-img" alt="">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1245</div>
+                        <div><img src="images/comments.png" alt="">154</div>
+                        <div><img src="images/share.png" alt="">34</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile.png" alt=""> <i class="fas fa-sort-down"></i>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+
+        </div>
+          
+        
+        
+        
+        
+        
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="3">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Banglore Tech Park</p>
+                    <a href="#">More Info</a>
+                </div>
+
+
+
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>Aug</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p ><i class="fas fa-map-marker-alt"></i> Banglore Tech Park </p>
+                    <a href="#">More Info</a>
+                </div>
+
+
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-add">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Sriniket</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Shubham</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Swapnil</p>
+            </div>
+
+            <!-- <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Alison Mina</p>
+            </div> -->
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2021-Pr@tik </p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
